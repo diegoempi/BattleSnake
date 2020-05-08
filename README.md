@@ -1,4 +1,4 @@
-# battleSnake-server
+# battleSnake
 
 Execute the following code snippet in a Playground:
 
