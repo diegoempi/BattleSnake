@@ -1,0 +1,1 @@
+I am baseline of battle snake

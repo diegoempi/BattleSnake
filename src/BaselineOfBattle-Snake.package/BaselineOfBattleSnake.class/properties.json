@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 5/7/2020 21:38",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfBattle-Snake",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfBattleSnake",
+	"type" : "normal"
+}
