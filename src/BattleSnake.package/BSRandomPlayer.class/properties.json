@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BSAbstractPlayer",
+	"category" : "BattleSnake-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"r"
+	],
+	"name" : "BSRandomPlayer",
+	"type" : "normal"
+}

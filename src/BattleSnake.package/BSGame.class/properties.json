@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BattleSnake-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"map",
+		"players",
+		"foods"
+	],
+	"name" : "BSGame",
+	"type" : "normal"
+}
