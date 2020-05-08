@@ -1,0 +1,1 @@
+I render the game in a board with controls

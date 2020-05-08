@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "akevalion 5/8/2020 19:14",
-	"super" : "Object",
+	"super" : "BSAbstractPlayer",
 	"category" : "BattleSnake-Game",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BSGameExample",
+	"name" : "BSHumanPlayer",
 	"type" : "normal"
 }
