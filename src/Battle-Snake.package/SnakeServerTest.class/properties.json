@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Battle-Snake",
+	"category" : "Battle-Snake-Server",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -14,11 +14,12 @@ baseline: spec
 			"The packages to use, but not load"
 			spec
 				package: #'Battle-Snake';
+				package: #'Battle-Snake-Tests';
 				package: #'Battle-Snake-Roassal3' with: [ spec requires: #('Roassal3') ].
 
 			"packages to load"
 			spec
-				group: 'default' with: #('Battle-Snake' 'Battle-Snake-Roassal3') ].
+				group: 'default' with: #('Battle-Snake' 'Battle-Snake-Tests' 'Battle-Snake-Roassal3') ].
 
 		
 	

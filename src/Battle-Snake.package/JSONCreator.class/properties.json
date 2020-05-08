@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Battle-Snake",
+	"category" : "Battle-Snake-Server",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Battle-Snake-Server",
+	"super" : "TestCase",
+	"category" : "Battle-Snake-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SnakeServer",
+	"name" : "BSGameTest",
 	"type" : "normal"
 }
