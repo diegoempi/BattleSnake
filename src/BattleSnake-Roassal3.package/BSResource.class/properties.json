@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "akevalion 5/8/2020 18:51",
+	"commentStamp" : "akevalion 5/8/2020 20:43",
 	"super" : "Object",
-	"category" : "BattleSnake-Roassal3-Examples",
+	"category" : "BattleSnake-Roassal3-Parts",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BSGameExamples",
+	"name" : "BSResource",
 	"type" : "normal"
 }

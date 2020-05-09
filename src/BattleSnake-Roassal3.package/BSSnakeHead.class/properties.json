@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "akevalion 5/8/2020 19:24",
+	"super" : "BSResource",
+	"category" : "BattleSnake-Roassal3-Parts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"HeadValues"
+	],
+	"instvars" : [ ],
+	"name" : "BSSnakeHead",
+	"type" : "normal"
+}

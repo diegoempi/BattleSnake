@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "akevalion 5/8/2020 18:51",
 	"super" : "Object",
-	"category" : "BattleSnake-Roassal3",
+	"category" : "BattleSnake-Roassal3-Render",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
