@@ -7,7 +7,12 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"game",
-		"path"
+		"id",
+		"name",
+		"health",
+		"body",
+		"shout",
+		"isDied"
 	],
 	"name" : "BSAbstractPlayer",
 	"type" : "normal"

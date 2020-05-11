@@ -1,4 +1,5 @@
-accessing
+initialization
 initialize
 	super initialize.
-	path := OrderedCollection new: 1 withAll: 1@1.
+	isDied := false.
+	health := 0.

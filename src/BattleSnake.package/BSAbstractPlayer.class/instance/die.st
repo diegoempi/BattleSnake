@@ -1,0 +1,3 @@
+public
+die
+	isDied := true

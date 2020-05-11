@@ -1,3 +1,3 @@
 accessing
 length
-	^ path size
+	^ self body size

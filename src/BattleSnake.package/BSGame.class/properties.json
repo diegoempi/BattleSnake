@@ -8,7 +8,8 @@
 	"instvars" : [
 		"map",
 		"players",
-		"foods"
+		"foods",
+		"playerTails"
 	],
 	"name" : "BSGame",
 	"type" : "normal"

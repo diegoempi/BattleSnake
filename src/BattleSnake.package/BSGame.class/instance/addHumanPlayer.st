@@ -1,3 +1,5 @@
-public
+adding
 addHumanPlayer
-	self addPlayer: (BSHumanPlayer new)
+	^ self addPlayer: (BSHumanPlayer new
+		health: self maxHealth;
+		yourself)

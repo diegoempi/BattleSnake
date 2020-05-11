@@ -1,0 +1,3 @@
+accessing
+maxHealth
+	^ 100

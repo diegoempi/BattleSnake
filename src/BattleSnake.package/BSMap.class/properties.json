@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"game",
-		"content"
+		"content",
+		"extent",
+		"foods"
 	],
 	"name" : "BSMap",
 	"type" : "normal"

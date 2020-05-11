@@ -8,7 +8,7 @@ content
 	| r |
 	r := Array2D rows: self size columns: self size element: 0.
 	game players do: [ :p |
-		p path do: [ :position |
+		p body do: [ :position |
 			r at: position y at: position x put: 1 ]
 	].
 	game foods do: [ :f |

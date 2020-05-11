@@ -1,5 +1,5 @@
 initialization
 initialize
-	| foods |
 	super initialize.
-	foods := OrderedCollection new
+	foods := OrderedCollection new.
+	self size: 11.

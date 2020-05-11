@@ -1,3 +1,5 @@
 adding
 addPlayer: aPlayer
-	players add: aPlayer
+	aPlayer game: self.
+	players add: aPlayer.
+	^ aPlayer
