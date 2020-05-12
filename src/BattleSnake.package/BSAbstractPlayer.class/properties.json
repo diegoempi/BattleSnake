@@ -12,7 +12,8 @@
 		"health",
 		"body",
 		"shout",
-		"isDied"
+		"isDied",
+		"dieReason"
 	],
 	"name" : "BSAbstractPlayer",
 	"type" : "normal"

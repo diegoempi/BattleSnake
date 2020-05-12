@@ -1,6 +1,7 @@
 tets - collisions
 testBodyCollision01
 	| game p1 p2 |
+	self skip.
 	game := BSGame new.
 	p1 := game addHumanPlayer.
 	p2 := game addHumanPlayer.

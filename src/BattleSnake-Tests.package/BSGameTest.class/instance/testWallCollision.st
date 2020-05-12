@@ -6,7 +6,7 @@ testWallCollision
 	
 	p body: { 1@1. 2@1 }.
 	game checkWallCollisionFor: p.
-	self assert: p isLive.
+	self assert: p isAlive.
 	
 	p body: { 0@1. 1@1 }.
 	game checkWallCollisionFor: p.

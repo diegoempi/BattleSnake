@@ -1,3 +1,3 @@
 testing
-isLive
+isAlive
 	^ self isDied not

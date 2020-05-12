@@ -1,3 +1,0 @@
-public
-die
-	isDied := true

@@ -18,4 +18,5 @@ testPlayerDie
 0 0 0 0 0 0 0 0 0 0 )'.
 	game runOnce.
 	self assert: player isDied.
+	self assert: player dieReason equals: 'Moved out of bounds'
 	
