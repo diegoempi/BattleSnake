@@ -6,11 +6,13 @@ content
 	  1 : snake
 	"
 	| r |
-	r := Array2D rows: self size columns: self size element: 0.
-	game players do: [ :p |
+	r := Array2D rows: extent x columns: extent y element: 0.
+	game players doWithIndex: [ :p :index |
 		p body do: [ :position |
-			r at: position y at: position x put: 1 ]
+			(self isValidPoint: position)
+				ifTrue: [ r at: position y at: position x put: index ]  ]
 	].
 	game foods do: [ :f |
-		r at: f y at: f x put: $F ].
+		(self isValidPoint: f)
+			ifTrue: [ r at: f y at: f x put: $F ]  ].
 	^ r

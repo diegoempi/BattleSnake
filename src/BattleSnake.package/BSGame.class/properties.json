@@ -9,7 +9,8 @@
 		"map",
 		"players",
 		"foods",
-		"playerTails"
+		"playerTails",
+		"diedPlayers"
 	],
 	"name" : "BSGame",
 	"type" : "normal"

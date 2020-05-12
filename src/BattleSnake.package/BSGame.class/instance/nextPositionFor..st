@@ -1,8 +1,5 @@
 private
 nextPositionFor: aPlayer 
-	| move position |
+	| move |
 	move := aPlayer nextMove.
-	position := aPlayer head + (map getMoveAsPoint: move).
-	^ (self isValidPosition: position)
-		ifTrue: [ position ]
-		ifFalse: [ nil ].
+	^ aPlayer head + (map getMoveAsPoint: move).

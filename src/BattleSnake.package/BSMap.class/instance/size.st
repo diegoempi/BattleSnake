@@ -1,3 +1,0 @@
-initialization
-size
-	^ 10

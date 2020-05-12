@@ -8,8 +8,7 @@
 	"instvars" : [
 		"game",
 		"content",
-		"extent",
-		"foods"
+		"extent"
 	],
 	"name" : "BSMap",
 	"type" : "normal"
