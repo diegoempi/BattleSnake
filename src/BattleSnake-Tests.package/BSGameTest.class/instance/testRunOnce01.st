@@ -16,7 +16,7 @@ testRunOnce01
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 )'.
-	game runOnce.
+	game runOnceNoFoodSpawn.
 	self assert: game map asString equals:
 '(0 0 0 0 0 0 0 0 0 0
 1 0 0 0 0 0 0 0 0 0
@@ -28,8 +28,8 @@ testRunOnce01
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 )'.
-	game runOnce.
-	game runOnce.
+	game runOnceNoFoodSpawn.
+	game runOnceNoFoodSpawn.
 	self assert: game map asString equals:
 '(0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0

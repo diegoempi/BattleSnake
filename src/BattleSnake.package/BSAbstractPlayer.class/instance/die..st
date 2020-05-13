@@ -1,4 +1,4 @@
 public
 die: aString
-	dieReason := aString.
+	eliminatedCause := aString.
 	isDead := true

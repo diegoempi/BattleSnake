@@ -11,3 +11,4 @@ testWallCollision
 	p body: { 0@1. 1@1 }.
 	game checkWallCollisionFor: p.
 	self assert: p isDead.
+	self assert: p eliminatedCause equals: 'Moved out of bounds'.

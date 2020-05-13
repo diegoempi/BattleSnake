@@ -1,9 +1,8 @@
-private
+update cycle
 move: aPlayer 
 	| point body |
 	"we save the tail information"
 	playerTails at: aPlayer put: aPlayer tail.
-	aPlayer decreaseHealth.
 	
 	point := self nextPositionFor: aPlayer.
 	

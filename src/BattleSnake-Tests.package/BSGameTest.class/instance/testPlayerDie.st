@@ -16,7 +16,7 @@ testPlayerDie
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 )'.
-	game runOnce.
+	game runOnceNoFoodSpawn.
 	self assert: player isDead.
-	self assert: player dieReason equals: 'Moved out of bounds'
+	self assert: player eliminatedCause equals: 'Moved out of bounds'
 	

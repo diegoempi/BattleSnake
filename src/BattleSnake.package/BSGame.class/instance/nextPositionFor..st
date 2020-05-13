@@ -1,4 +1,4 @@
-private
+accessing - computed
 nextPositionFor: aPlayer 
 	| move |
 	move := aPlayer nextMove.

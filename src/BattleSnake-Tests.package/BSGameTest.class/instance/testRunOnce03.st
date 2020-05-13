@@ -19,7 +19,7 @@ testRunOnce03
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 )'.
-	game runOnce.
+	game runOnceNoFoodSpawn.
 	self assert: game map asString equals:
 '(1 1 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
@@ -31,8 +31,8 @@ testRunOnce03
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 )'.
-	game runOnce.
-	game runOnce.
+	game runOnceNoFoodSpawn.
+	game runOnceNoFoodSpawn.
 	self assert: game map asString equals:
 '(0 1 1 1 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
@@ -46,7 +46,7 @@ testRunOnce03
 0 0 0 0 0 0 0 0 0 0 )'.
 	
 	player nextMove: #up.
-	game runOnce.
+	game runOnceNoFoodSpawn.
 	self assert: player isDead.
 	self assert: game players size equals: 0.
 	self assert: game diedPlayers size equals: 1.

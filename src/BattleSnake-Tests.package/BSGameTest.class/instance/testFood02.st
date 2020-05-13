@@ -19,7 +19,7 @@ testFood02
 0 0 0 0 0 0 0 $F 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 )'.
-	game runOnce.
+	game runOnceNoFoodSpawn.
 	self assert: game foods equals: { 5@5. 8@8 }.
 	self assert: player health equals: game maxHealth.
 	self assert: game map asString equals:

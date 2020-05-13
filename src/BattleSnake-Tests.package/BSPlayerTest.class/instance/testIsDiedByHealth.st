@@ -3,6 +3,5 @@ testIsDiedByHealth
 	self deny: player isDead.
 	player health: 0.
 	self deny: player isDead.
-	player decreaseHealth.
+	player reduceHealth.
 	self assert: player isDead.
-	self assert: player dieReason equals: 'Starved'.
