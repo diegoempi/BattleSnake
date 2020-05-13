@@ -5,7 +5,7 @@ baseline: spec
 		for: #common
 		do: [ ||
 			"our dependencies"
-			"https://github.com/diegoempi/battleSnake-server"
+			"https://github.com/diegoempi/BattleSnake"
 			
 			spec 
 				baseline: 'Roassal3' 
@@ -15,11 +15,16 @@ baseline: spec
 			spec
 				package: #'BattleSnake';
 				package: #'BattleSnake-Tests';
+				package: #'BattleSnake-IA';
 				package: #'BattleSnake-Roassal3' with: [ spec requires: #('Roassal3') ].
 
 			"packages to load"
 			spec
-				group: 'default' with: #('BattleSnake' 'BattleSnake-Tests' 'BattleSnake-Roassal3') ].
+				group: 'default' with: #(
+					'BattleSnake' 
+					'BattleSnake-Tests' 
+					'BattleSnake-IA' 
+					'BattleSnake-Roassal3') ].
 
 		
 	

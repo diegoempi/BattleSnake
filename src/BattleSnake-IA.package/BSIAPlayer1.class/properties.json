@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BSAbstractPlayer",
+	"category" : "BattleSnake-IA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BSIAPlayer1",
+	"type" : "normal"
+}

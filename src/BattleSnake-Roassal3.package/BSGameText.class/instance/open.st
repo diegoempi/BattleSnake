@@ -1,6 +1,5 @@
 opening
 open
-	canvas := RSCanvas new.
 	self updateText.
 	(canvas newAnimation
 		duration: 1 second;
@@ -13,3 +12,5 @@ open
 	canvas open
 		extent: 300@500;
 		setLabel: 'Game in text'.
+	canvas when: RSKeyDown do: [ :event | 
+		self processKeyDown: event ].
