@@ -1,7 +1,7 @@
 update cycle
 feedIfNecessary: aPlayer
 	| body |
-	aPlayer isDied ifTrue: [ ^ self ].
+	aPlayer isDead ifTrue: [ ^ self ].
 	aPlayer hasFoundFood ifFalse: [ ^ self ].
 	foods remove: aPlayer head.
 	body := aPlayer body asOrderedCollection.

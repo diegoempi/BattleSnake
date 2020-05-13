@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	isDied := false.
+	isDead := false.
 	health := 0.

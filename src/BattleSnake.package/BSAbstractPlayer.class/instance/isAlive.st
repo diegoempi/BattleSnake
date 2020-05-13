@@ -1,3 +1,3 @@
 testing
 isAlive
-	^ self isDied not
+	^ self isDead not

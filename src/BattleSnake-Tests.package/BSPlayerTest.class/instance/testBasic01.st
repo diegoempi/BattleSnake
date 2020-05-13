@@ -5,7 +5,7 @@ testBasic01
 	self assert: player body equals: {1@1}.
 	self assert: player id isNil.
 	
-	self deny: player isDied.
+	self deny: player isDead.
 	self assert: player isAlive.
 	
 	self assert: player head equals: 1@1.

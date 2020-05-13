@@ -47,7 +47,7 @@ testRunOnce03
 	
 	player nextMove: #up.
 	game runOnce.
-	self assert: player isDied.
+	self assert: player isDead.
 	self assert: game players size equals: 0.
 	self assert: game diedPlayers size equals: 1.
 	self assert: game map asString equals:

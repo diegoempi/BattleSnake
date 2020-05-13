@@ -10,4 +10,4 @@ testWallCollision
 	
 	p body: { 0@1. 1@1 }.
 	game checkWallCollisionFor: p.
-	self assert: p isDied.
+	self assert: p isDead.
