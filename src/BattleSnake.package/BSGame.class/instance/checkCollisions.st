@@ -9,4 +9,4 @@ checkCollisions
 			p2 := players at: j. 
 			self checkCollisionFor: p1 and: p2 ] ].
 	
-	diedPlayers addAll: (players select: [:p | p isDied ]).
+	diedPlayers addAll: (players select: [:p | p isDead ]).

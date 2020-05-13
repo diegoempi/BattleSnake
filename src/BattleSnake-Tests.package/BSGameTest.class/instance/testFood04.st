@@ -23,7 +23,7 @@ testFood04
 	self assert: game foods equals: {2@3. 5@5. 8@8 }.
 	self assert: player health equals: -1.
 	self assert: player body equals: { 2@3. 2@4. 3@4 }.
-	self assert: player isDied.
+	self assert: player isDead.
 	self assert: game map asString equals:
 '(0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0

@@ -1,4 +1,4 @@
-# battleSnake
+# BattleSnake
 
 Execute the following code snippet in a Playground:
 
