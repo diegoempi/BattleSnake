@@ -1,3 +1,0 @@
-accessing
-length
-	^ path size

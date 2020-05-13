@@ -1,3 +1,0 @@
-initialization
-foods
-	^ foods

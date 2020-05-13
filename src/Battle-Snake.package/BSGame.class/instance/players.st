@@ -1,3 +1,0 @@
-adding
-players
-	^ players

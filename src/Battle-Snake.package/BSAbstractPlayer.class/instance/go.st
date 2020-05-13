@@ -1,3 +1,0 @@
-navigating
-go
-	"Do nothing"
