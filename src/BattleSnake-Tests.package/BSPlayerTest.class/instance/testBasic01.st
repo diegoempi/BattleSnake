@@ -1,7 +1,6 @@
 tests
 testBasic01
 	player := BSRandomPlayer new.
-	
 	self assert: player body equals: {1@1}.
 	self assert: player id isNil.
 	
