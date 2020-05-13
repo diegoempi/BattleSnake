@@ -1,6 +1,6 @@
 opening
 open
-	self updateText.
+	"self updateText."
 	(canvas newAnimation
 		duration: 1 second;
 		repeat) announcer 
