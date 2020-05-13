@@ -1,7 +1,14 @@
 opening
-updateText
+updateGame
 	| mapContent |
-	"game hasEnded ifTrue: [ ^ self ]."
+	game players ifEmpty: [ 
+		"game reset."
+		"TODO create a game reset"
+		game := BSGame new.
+		game foods: {  }.
+		(game addHumanPlayer) body: { 3@3 }.
+		
+		 ].
 	canvas shapes copy do: #remove.
 	mapContent := game map content.
 	mapContent do: [ :each|

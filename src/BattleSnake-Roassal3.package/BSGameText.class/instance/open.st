@@ -2,9 +2,9 @@ opening
 open
 	"self updateText."
 	(canvas newAnimation
-		duration: 1 second;
+		duration: 200 milliSeconds;
 		repeat) announcer 
-			when: RSAnimationLoopEvent send: #updateText to: self.
+			when: RSAnimationLoopEvent send: #updateGame to: self.
 	canvas announcer 
 		when: RSExtentChangedEvent 
 		send: #zoomToFit 
