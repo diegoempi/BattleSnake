@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "BSAbstractIAPlayer",
-	"category" : "BattleSnake-IA",
+	"super" : "BSLoader",
+	"category" : "BattleSnake-Roassal3-Render",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BSIAPlayer1",
+	"name" : "BSIAPlayer1Loader",
 	"type" : "normal"
 }
