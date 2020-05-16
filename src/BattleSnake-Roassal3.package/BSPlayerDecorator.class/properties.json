@@ -1,14 +1,17 @@
 {
-	"commentStamp" : "akevalion 5/15/2020 20:10",
+	"commentStamp" : "akevalion 5/16/2020 01:45",
 	"super" : "Object",
 	"category" : "BattleSnake-Roassal3-Render",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"playerSize",
-		"renderer"
+		"player",
+		"currentMove",
+		"snakeHead",
+		"snakeTail",
+		"snakeCurve"
 	],
-	"name" : "BSLoader",
+	"name" : "BSPlayerDecorator",
 	"type" : "normal"
 }

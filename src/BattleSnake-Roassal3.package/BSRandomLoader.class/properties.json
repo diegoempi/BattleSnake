@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 5/16/2020 00:03",
+	"super" : "BSLoader",
+	"category" : "BattleSnake-Roassal3-Render",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BSRandomLoader",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 accessing
 renderer: aBSRender 
-	render := aBSRender
+	renderer := aBSRender

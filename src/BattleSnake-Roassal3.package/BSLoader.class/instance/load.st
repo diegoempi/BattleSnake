@@ -1,9 +1,9 @@
 public
 load
-	render game: render game class new.
+	self resetGame.
 	self players do: [ :p |
 		
-		render game addPlayer: p.
+		renderer game addPlayer: (BSPlayerDecorator new player: p).
 		p body: self createBody.
 		 ].
 	

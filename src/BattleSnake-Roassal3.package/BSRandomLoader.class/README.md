@@ -1,0 +1,1 @@
+I am loader of player in random position

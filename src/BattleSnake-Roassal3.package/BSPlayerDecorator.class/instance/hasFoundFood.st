@@ -1,0 +1,3 @@
+testing
+hasFoundFood
+	^ player hasFoundFood

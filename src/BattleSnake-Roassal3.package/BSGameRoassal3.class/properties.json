@@ -5,7 +5,13 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"snakes",
+		"foods",
+		"size",
+		"padding",
+		"snakeColor"
+	],
 	"name" : "BSGameRoassal3",
 	"type" : "normal"
 }

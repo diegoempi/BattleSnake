@@ -1,0 +1,3 @@
+public
+reduceHealth
+	player reduceHealth

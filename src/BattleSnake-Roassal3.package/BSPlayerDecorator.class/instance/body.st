@@ -1,0 +1,3 @@
+accessing
+body
+	^ player body
