@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 5/15/2020 19:17",
+	"super" : "BSGame",
+	"category" : "BattleSnake-Game",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BSSinglePlayerGame",
+	"type" : "normal"
+}

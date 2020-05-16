@@ -1,3 +1,3 @@
 accessing
-length
+size
 	^ self body size

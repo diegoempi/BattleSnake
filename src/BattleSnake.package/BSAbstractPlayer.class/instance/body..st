@@ -1,3 +1,3 @@
 accessing
 body: anArray 
-	body := anArray
+	body := anArray asOrderedCollection

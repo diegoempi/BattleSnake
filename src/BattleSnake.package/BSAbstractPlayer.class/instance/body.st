@@ -1,5 +1,5 @@
 accessing
 body
-	body ifNil: [ body := { 1@1 } ].
-	body ifEmpty: [ body := { 1@1 } ].
+	body ifNil: [ self body: { 1@1 } ].
+	body ifEmpty: [ self body: { 1@1 } ].
 	^ body

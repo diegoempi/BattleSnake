@@ -1,14 +1,7 @@
-opening
+update cycle
 updateGame
 	| mapContent |
-	game players ifEmpty: [ 
-		"game reset."
-		"TODO create a game reset"
-		game := BSGame new.
-		game foods: {  }.
-		(game addHumanPlayer) body: { 3@3 }.
-		
-		 ].
+	super updateGame.
 	canvas shapes copy do: #remove.
 	mapContent := game map content.
 	mapContent do: [ :each|

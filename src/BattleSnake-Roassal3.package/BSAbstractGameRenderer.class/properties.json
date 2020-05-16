@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 5/15/2020 19:01",
+	"super" : "Object",
+	"category" : "BattleSnake-Roassal3-Render",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"canvas",
+		"game",
+		"loader"
+	],
+	"name" : "BSAbstractGameRenderer",
+	"type" : "normal"
+}

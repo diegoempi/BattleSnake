@@ -11,7 +11,8 @@
 		"foods",
 		"playerTails",
 		"diedPlayers",
-		"random"
+		"random",
+		"initialBodies"
 	],
 	"name" : "BSGame",
 	"type" : "normal"
