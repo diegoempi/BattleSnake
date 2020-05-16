@@ -3,6 +3,7 @@ load
 	render game: render game class new.
 	self players do: [ :p |
 		
-		render game addPlayer: p
+		render game addPlayer: p.
+		p body: self createBody.
 		 ].
 	
