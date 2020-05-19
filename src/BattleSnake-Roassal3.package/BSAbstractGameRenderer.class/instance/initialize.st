@@ -6,4 +6,5 @@ initialize
 	self
 		loader: BSLoader new;
 		game: BSGame new.
-	canvas when: RSMouseClick do: [ canvas animations do: #toggle ]
+	canvas announcer when: RSMouseClick send: #toggle to: self.
+	logEvents := false.

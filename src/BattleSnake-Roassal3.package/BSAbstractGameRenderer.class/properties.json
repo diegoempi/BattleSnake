@@ -8,7 +8,8 @@
 	"instvars" : [
 		"canvas",
 		"game",
-		"loader"
+		"loader",
+		"logEvents"
 	],
 	"name" : "BSAbstractGameRenderer",
 	"type" : "normal"

@@ -4,3 +4,4 @@ runOnceNoFoodSpawn
 	self reducePlayersHealth.
 	self eliminateSnakesIfNecessary.
 	self feedPlayersIfNecessary.
+	turn := turn + 1.

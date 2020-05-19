@@ -1,3 +1,3 @@
 testing
 hasEnded
-	^ players size = 1
+	^ players size <= 1

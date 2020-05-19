@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "BSLoader",
-	"category" : "BattleSnake-Roassal3-Render",
+	"category" : "BattleSnake-IA-Loaders",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

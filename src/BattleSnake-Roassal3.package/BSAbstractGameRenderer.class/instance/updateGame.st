@@ -1,3 +1,8 @@
 update cycle
 updateGame
-	game hasEnded ifTrue: [ loader load ]
+	logEvents ifTrue: [ self updateLogger ].
+
+	game hasEnded ifFalse: [ ^ self ].
+	
+	logEvents ifTrue: [ ^ self toggle ].
+	loader load

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BSLoader",
+	"category" : "BattleSnake-Roassal3-Render",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"players"
+	],
+	"name" : "BSMultiLoader",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-examples - basic
+*BattleSnake-IA
 example04
 	<script: 'self new example04'>
 	| renderer |

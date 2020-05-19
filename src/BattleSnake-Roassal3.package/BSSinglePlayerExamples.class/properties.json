@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BSGameExamples",
+	"name" : "BSSinglePlayerExamples",
 	"type" : "normal"
 }

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "BSAbstractPlayer",
-	"category" : "BattleSnake-IA",
+	"category" : "BattleSnake-IA-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

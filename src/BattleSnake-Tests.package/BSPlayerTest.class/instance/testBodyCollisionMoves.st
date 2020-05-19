@@ -9,3 +9,4 @@ testBodyCollisionMoves
 	
 	self assert: [ player bodyCollisionMoves includes: #left ].
 	self assert: [ player bodyCollisionMoves includes: #down ].
+	self assert: player bodyCollisionMoves size equals: 2.
