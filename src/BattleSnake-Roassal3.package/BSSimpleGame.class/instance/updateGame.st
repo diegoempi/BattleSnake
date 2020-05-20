@@ -5,7 +5,7 @@ updateGame
 	super updateGame.
 	board := RSGroup new.
 	mapContent := game map content.
-	mapContent do: [ :each|
+	mapContent do: [ :each |
 		board add: (self shapeFor: each) ].
 	
 	RSGridLayout new

@@ -4,5 +4,5 @@ initialize
 	padding := 4.
 	super initialize.
 	game := BSSinglePlayerGame new.
-	snakeColor := RSColorPalette diverging rdylgn10.
+	snakeColor := RSColorPalette diverging puor10.
 	snakes := foods :=  #().

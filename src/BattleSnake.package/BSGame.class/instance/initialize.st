@@ -7,6 +7,7 @@ initialize
 	foods := OrderedCollection new.
 	random := Random new.
 	turn := 0.
+	maxHealth := 100.
 	
 	map := BSMap new.
 	map game: self.

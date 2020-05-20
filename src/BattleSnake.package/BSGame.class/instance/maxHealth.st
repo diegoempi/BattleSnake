@@ -1,3 +1,3 @@
 accessing
 maxHealth
-	^ 100
+	^ maxHealth

@@ -10,7 +10,8 @@
 		"foods",
 		"size",
 		"padding",
-		"snakeColor"
+		"snakeColor",
+		"logger"
 	],
 	"name" : "BSGameRoassal3",
 	"type" : "normal"

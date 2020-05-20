@@ -12,3 +12,6 @@ open
 	canvas open
 		extent: self windowExtent;
 		setLabel: self title.
+	logEvents ifTrue: [ canvas when: RSMouseClick do: [ loader load ]. ].
+	self updateGame.
+	canvas zoomToFit.

@@ -7,5 +7,8 @@ example02
 	renderer loader: BSMultiLoader new.
 	renderer loader 
 		addPlayer: BSIAPlayer2 new;
+		addPlayer: BSIAPlayer2 new;
+		addPlayer: BSIAPlayer3 new;
 		addPlayer: BSIAPlayer3 new.
+	renderer logEvents.
 	renderer open.

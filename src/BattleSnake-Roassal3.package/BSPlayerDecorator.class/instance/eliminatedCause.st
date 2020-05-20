@@ -1,0 +1,3 @@
+accessing
+eliminatedCause
+	^ player eliminatedCause.

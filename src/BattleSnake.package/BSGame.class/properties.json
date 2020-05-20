@@ -13,7 +13,8 @@
 		"diedPlayers",
 		"random",
 		"turn",
-		"allPlayers"
+		"allPlayers",
+		"maxHealth"
 	],
 	"name" : "BSGame",
 	"type" : "normal"
