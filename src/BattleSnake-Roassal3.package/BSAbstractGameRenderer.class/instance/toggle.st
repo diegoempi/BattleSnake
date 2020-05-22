@@ -1,4 +1,3 @@
 operations
 toggle
-	canvas animations do: #toggle
-	
+	animation toggle.

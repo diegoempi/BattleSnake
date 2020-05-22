@@ -9,7 +9,8 @@
 		"canvas",
 		"game",
 		"loader",
-		"logEvents"
+		"logEvents",
+		"animation"
 	],
 	"name" : "BSAbstractGameRenderer",
 	"type" : "normal"

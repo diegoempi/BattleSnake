@@ -1,17 +1,19 @@
 update cycle
 updateLogger
-	| group |
-	logger ifNotNil: [ logger remove ].
-	group := RSGroup new.
-	group add: self turnShape.
-	group addAll: (game allPlayers collect: [ :p |
-		self loggerBoxFor: p ]).
-	RSVerticalLineLayout on: group.
-	logger := group asShape.
+	logger ifNil: [ 
+		logger := self createLogger.
+		canvas add: logger ].
+	logger children first text: 'Turn: ', game turn asString.
+	logger children allButFirst do: [ :s | self updateChild: s ].
+	
+	RSVerticalLineLayout new
+		gapSize: 0;
+		alignCenter;
+		on: logger children.
+	logger adjustToChildren.
 	RSLocation new
 		outer;
 		right;
-		offset: 10 @ -10;
+		offset: 30 @ -10;
 		move: logger on: canvas shapes first.
-	canvas add: logger.
-	
+	game hasEnded ifTrue: [ logger := nil ].

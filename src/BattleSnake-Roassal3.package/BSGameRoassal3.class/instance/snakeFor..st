@@ -10,5 +10,6 @@ snakeFor: aPlayer
 			yourself
 		 ].
 	^ RSComposite new
+		model: aPlayer;
 		children: body;
 		yourself
