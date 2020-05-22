@@ -12,4 +12,4 @@ testRunGame
 	winner := game runGame.
 	
 	self assert: game hasEnded equals: true.
-	self assert: winner equals: player2.
+	self assert: winner equals: player2 name.

@@ -4,5 +4,5 @@ runGame
 	[self hasEnded] whileFalse: [ 
 		self runOnce ].
 	self players do: [ :p |
-		p isAlive ifTrue: [ ^ p ] 
+		p isAlive ifTrue: [ ^ (p name)] 
 		 ].
