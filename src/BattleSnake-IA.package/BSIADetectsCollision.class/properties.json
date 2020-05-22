@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "BSIADetectsCollision",
+	"super" : "BSAbstractIAPlayer",
 	"category" : "BattleSnake-IA-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BSIAPlayer3",
+	"name" : "BSIADetectsCollision",
 	"type" : "normal"
 }

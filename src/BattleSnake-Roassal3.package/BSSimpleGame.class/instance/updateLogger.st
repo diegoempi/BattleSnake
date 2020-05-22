@@ -1,4 +1,4 @@
-as yet unclassified
+update cycle
 updateLogger
 	| string shapeBuilder shape |
 	string := self loggerAsString.

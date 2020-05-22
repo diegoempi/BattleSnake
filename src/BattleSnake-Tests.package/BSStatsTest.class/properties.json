@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"winner"
-	],
-	"name" : "BSGameTest",
+	"instvars" : [ ],
+	"name" : "BSStatsTest",
 	"type" : "normal"
 }

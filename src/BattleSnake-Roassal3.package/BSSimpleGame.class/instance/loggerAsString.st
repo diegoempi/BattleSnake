@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 loggerAsString
 	^ String streamContents: [:s | 
 		s << 'Turn: '.
